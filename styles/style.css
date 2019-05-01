@@ -1,0 +1,159 @@
+@font-face {
+  font-family: BN;
+  src: url(beadando/styles/BebasNeue.ttf);
+}
+
+img  {
+  float: right;
+  width: 500px;
+  height: auto;
+  padding: 30px;
+}
+
+body{
+	font-family: arial;
+	line-height: 150%
+	font-size: 15px;
+	background-color: #333333;
+	text-align: justify;
+}
+
+p {
+	font-family: arial;
+	line-height: 120%;
+	font-size: 15px;
+	text-align: justify;
+	line-height: 150%
+}
+
+div {
+	font-family: arial;
+	line-height: 120%;
+	font-size: 15px;
+	text-align: justify;
+	background-color: #cecece;
+	line-height: 150%
+}
+
+h1 {
+	font-family: 'BN';
+	font-size: 100px;
+	color:  rgb(168,170,170);
+}
+
+
+h2 {
+	font-family: 'BN';
+	font-size: 40px;
+	color: #000000;
+}
+
+h3 {
+	font-family: 'BN';
+	font-size: 25px;
+	color: #d6e3da;
+}
+
+b{
+	font-family: 'BN';
+	font-size: 25px;
+	color: #769142;
+}
+
+header{
+	width: 100%;
+	height: 256px;
+	background-image: url("../images/header.png");
+	background-size: cover;
+	padding: 20px;
+}
+
+footer {
+	font-family: 'BN';
+	font-size: 30px;
+	color: #ede0d2;
+	text-align: right;
+}
+
+header .fejlec_cim{
+	font-family: 'BN';
+	font-size: 100px;
+	color: #ede0d2;
+}
+
+.message{
+	padding: 10px;
+	background-color: #d6e3da;
+}
+
+label { display: block; }
+iframe, video{
+	min-width: 100%;
+}
+
+.content{
+	width: 100%;
+	padding: 30px;
+}
+
+.box{
+	padding: 4px;
+	max-width: 100%;
+}
+
+.embed-container{ 
+	position: relative; 
+	padding-bottom: 55%; 
+	height: 0; 
+	overflow: hidden; 
+	max-width: 100%; 
+} 
+.embed-container iframe, .embed-container object, .embed-container embed{ 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+}
+
+div.gallery {margin: 0 auto; width: 660px;}
+    div.image { display: inline-block; }
+    div.image img { width: 200px; }
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #769142;
+  font-family: 'BN';
+  font-size: 22px;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'BN';
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.hivatalos {float: left;}
+
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+div#galeria {margin: 0 auto; width: 620px;}
+        div.kep { display: inline-block; }
+        div.kep img { width: 200px; }
+		
